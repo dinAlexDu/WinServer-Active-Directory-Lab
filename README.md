@@ -156,7 +156,7 @@ This project demonstrates the configuration of an Active Directory lab environme
 
 #### d) Time-Based Login Restriction Test  
 - Attempt login outside of allowed hours for `IT_Users`.  
-  ![Login Denied Test](images/login-denied-test-user.png)
+  ![Login Denied Test](images/logon-denied-test-user.png)
 
 ---
 
