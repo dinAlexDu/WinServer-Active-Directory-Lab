@@ -140,9 +140,13 @@ This project demonstrates the configuration of an Active Directory lab environme
 
 ### 5. Testing and Validation
 
+### 5. Testing and Validation
+
 #### a) Verify Login Message  
 - Log in using a domain account and verify the interactive login message appears.  
-  ![Domain Login Screen](images/domain-login-screen.png)
+  ![Login Message Screen](images/login-message-screen.png)  
+  *Screenshot Description: Displays the interactive logon message applied via GPO.*
+
 
 #### b) Test Control Panel Restrictions  
 - Log in as a user from the `IT_Users` group and attempt to open the Control Panel.  
@@ -154,7 +158,7 @@ This project demonstrates the configuration of an Active Directory lab environme
 
 #### d) Time-Based Login Restriction Test  
 - Attempt login outside of allowed hours for `IT_Users`.  
-  ![Login Denied Test](images/login-denied-test-user.png)
+  ![Login Denied Test](images/logon-denied-test-user.png)
 
 ---
 
