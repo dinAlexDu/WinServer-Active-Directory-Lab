@@ -33,7 +33,7 @@ This project demonstrates the configuration of an Active Directory lab environme
   Configure forward and reverse lookup zones, including DNS records.
 
 - **Configure Organizational Units (OUs):**  
-  Create and organize users, groups, and computers into OUs.
+  Create and manage organizational units (OUs) to organize users, groups, and computers.
 
 - **Create and Apply GPOs:**  
   Implement and link GPOs for login messages, admin rights, and restrictions.
@@ -137,8 +137,6 @@ This project demonstrates the configuration of an Active Directory lab environme
      ![GPO Update Command](images/gpupdate-force-it-admins-configuration.png)
 
 ---
-
-### 5. Testing and Validation
 
 ### 5. Testing and Validation
 
