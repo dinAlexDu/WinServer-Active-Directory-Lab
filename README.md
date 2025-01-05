@@ -59,9 +59,19 @@ This project demonstrates the configuration of an Active Directory lab environme
    ![Add AD DS Role](images/add-ad-ds-role.png)
 
 3. **Promote the Server to Domain Controller:**  
-   Configured the domain name `lab.local` during promotion.  
+   Configured the domain name `lab.local` during the promotion process to establish the primary domain for the lab environment.  
+   - Set `Windows Server 2016` as the forest and domain functional levels to support modern Active Directory features.  
+   - Configured the Directory Services Restore Mode (DSRM) password for recovery scenarios.  
+
    ![Configure Domain Name](images/configure-domain-name.png)  
-   ![Domain Controller Options](images/domain-controller-options.png)
+   *Screenshot Description: Shows the domain name `lab.local` being configured during the promotion to a domain controller.*
+
+   ![Domain Controller Options](images/domain-controller-options.png)  
+   *Screenshot Description: Displays the functional level settings and DSRM password configuration.*
+
+   > **Note:** The promotion process automatically installs and configures DNS for name resolution.  
+   After completing the promotion, the server will require a reboot to finalize the configuration.
+
 
 ---
 
